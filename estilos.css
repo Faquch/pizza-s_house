@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 20vh;
+    position: sticky;
+    top: 0;
+    .contenedorLogo{
+        text-align: center;
+    }
+    background-color: gray;
+    .listaNav{/*ul*/
+        text-align: center;
+        list-style: none;
+        .listaItems{/*li*/
+            display: inline-block;
+            .linksNav{/*a*/
+                display: inline-block;
+                text-decoration: none;
+                color: #0a1256;
+                font-size: 1.8rem;
+                margin-right: 15px;
+                margin-bottom: 15px;
+            }   
+        }
+    }
+}
+
+.lorem {
+    font-size: 60px;
+}
+
+.footer{
+    background-color: gray;
+}
